@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HomePage",
+    "\\LoginPage",
+    "\\_actions",
+    "\\_components",
+    "\\_constants",
+    "\\_forms",
+    "\\_helpers",
+    "\\_reducers",
+    "\\_services"
+  ],
+  "SelectedNode": "\\_forms\\input.jsx",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html, body {
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+.jumbotron {
+    background-color: none !important;
+}
+
+.pad10 {
+    padding-top: 0%;
+    position: fixed;
+    top: 50% !important;
+    margin-top: -150px !important;
+    left: 50% !important;
+    margin-left: -200px !important;
+}
+
+.login_btn {
+    color: black !important;
+    background-color: #716aca !important;
+    width: 100px;
+    color: #fff !important;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 12px;
+    font-weight: 500 !important;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: aliceblue !important;
+    color: black;
+    border: 0 !important;
+}
+
+i.fa-user, i.fa-key {
+    color: #716aca !important;
+}
+
+.has-error {
+    border-bottom: 2px solid red !important;
+}
+
+.form-control {
+    border-radius:0px 4px 4px 0px !important;
+}
+
+.form-group {
+    margin-bottom: 0px !important;
+}
+
+.input-group.form-group {
+    margin-bottom: 10px !important;
+}
+
+input {
+    width: 154% !important;
+}
+
+.chk {
+    width: 20px !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #716aca !important;
+    border-color: #716aca !important;
+}
+
+.card {
+    height: auto !important;
+}
+
+.card-body {
+    flex: none !important;
+}
+
+.card-footer {
+    display:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #716aca;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 5px solid #eee;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #eee;
+    display: block;
+    padding-left:20px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+    background-color: blueviolet;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 16px; /* Increased text to enable scrolling */
+    /*padding: 0px 10px;*/
+    background-color:#fff;
+    z-index:999999;
+
+
+
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    /*padding-top: 20px;*/
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 16px;
+    }
+}
+
+
+.dddd {
+    display:none !important;
+}
+
+.NavBar2 {
+    background-color: #716aca;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.dropbtn {
+    background-color: #716aca;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 70% !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blueviolet;
+}
+.innerContent {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.formClass > .form-group {
+    padding-bottom: 10px !important;
+    max-width: 250px !important;
+    border-radius: 4px !important;
+}
+
+.help-block {
+    color:red;
+}
+
+.loginForm > .form-group > .form-control {
+    font-size: 13px !important;
+    width: 308px !important;
+}
+.remember {
+    font-size: 13px !important;
+}
+
+.remember input {
+    width: 20px;
+    height: 17px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 3px !important;
+}

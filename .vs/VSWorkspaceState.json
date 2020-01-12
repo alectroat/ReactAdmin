@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\App",
+    "\\src\\HomePage",
+    "\\src\\LoginPage",
+    "\\src\\_actions",
+    "\\src\\_config",
+    "\\src\\_constants",
+    "\\src\\_reducers",
+    "\\src\\_services"
+  ],
+  "SelectedNode": "\\src\\RegisterPage\\RegisterSave.jsx",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,18 @@
+button.btn.btn-primary.btnClass.btnClass {
+    padding: 3px !important;
+    font-size: 13px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+button.btn.btn-primary {
+    padding: 3px !important;
+    font-size: 13px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+form.formClass > div.form-group > input.form-control {
+    border-radius: 4px !important;
+    font-size: 13px !important;
+}
